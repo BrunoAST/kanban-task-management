@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "button": "libs/button",
+    "components-docs": "apps/components-docs",
     "kanban": "apps/kanban",
     "kanban-e2e": "apps/kanban-e2e"
   }
