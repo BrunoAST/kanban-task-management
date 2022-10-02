@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@kanban-task-management/button": ["libs/button/src/index.ts"]
+      "@kanban-task-management/button": ["libs/button/src/index.ts"],
+      "@kanban-task-management/theme": ["libs/theme/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
