@@ -3,7 +3,7 @@ import { css, Global } from '@emotion/react';
 export const BaseStyles = (): JSX.Element => {
   return (
     <Global
-      styles={css`
+      styles={(theme) => css`
       :root {
         font-family: 'Plus Jakarta Sans', sans-serif;
       }
@@ -11,6 +11,9 @@ export const BaseStyles = (): JSX.Element => {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+      }
+      body {
+        background-color: ${theme.colors.background};
       }
     `}
     />
