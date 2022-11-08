@@ -5,6 +5,8 @@ export const Wrapper = (): JSX.Element => {
   const { toggleDarkMode } = useDarkModeProvider();
 
   return (
-    <Button onClick={() => toggleDarkMode()} />
+    <Button variant='secondary' onClick={() => toggleDarkMode()}>
+      Toggle Theme
+    </Button>
   );
 }
