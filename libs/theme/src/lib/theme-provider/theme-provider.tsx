@@ -15,8 +15,10 @@ declare module '@emotion/react' {
       red: string;
       lines: string;
       background: string;
+      secondaryButtonBg: string;
       hover: {
         mainPurple: string;
+        mainPurple25: string;
         red: string;
       }
     };
@@ -36,6 +38,7 @@ export const BaseThemeProvider = ({ children }: BaseThemeProviderProps): JSX.Ele
       hover: { ...COLORS.hover },
       lines: COLORS.light.lines,
       background: COLORS.light.background,
+      secondaryButtonBg: COLORS.light.secondaryButtonBg,
     }
   };
 
@@ -45,6 +48,7 @@ export const BaseThemeProvider = ({ children }: BaseThemeProviderProps): JSX.Ele
       hover: { ...COLORS.hover },
       lines: COLORS.dark.lines,
       background: COLORS.dark.background,
+      secondaryButtonBg: COLORS.dark.secondaryButtonBg,
     }
   };
 
